@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <title>Southern Pikey's</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalizer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/scroll.css">
+
+</head>
+
+<body>
+    <header style="position: relative;">
+        <div id='navContainer' class='navContainer'>
+            <h3 class='title'><a href='#'>A sample corp</a></h3>
+            <div style='float:right'>
+                <ul class='navList'>
+                    <li class='navLink' onclick="about()">about us</a></li>
+                    <li class='navLink' onclick="services()">our services</li>
+                    <li class='navLink' onclick="joinus()">join us</li>
+                    <li  class='navLink'><a href='https://discord.com'><img class='discord' src='img/discord.svg'></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class='topContainer'>
+
+        <video style="width: 100%; height: 100%; z-index: -1;object-fit: cover;" autoplay muted loop id="myVideo">
+            <source src="img/jita.mp4" type="video/mp4">
+            Any alternate text.
+        </video>
+
+
+
+        <div class='headingContainer'>
+            <img class='mainLogo' src='https://images.evetech.net/corporations/98057711/logo'>
+            <h1 class='mainHeading'>A sample corp</h1>
+            <h3 class='subHeading'>Space is better with friends</h3>
+            <button class='mainButton' onclick="joinus()">Join Us!</button>
+        </div>
+    </div>
+    <div id='aboutus' class='bottomContainer'>
+
+        <div class='corpHeadingContainer'>
+            <h1 class='corpHeading'>The corporation for everyone</h1>
+            <h3 class='corpSubheading'>A sample corp is a renewed corp currently seeking pilots of all skill
+                levels. We live near the Jita trade hub and have easy access to low sec and high level missions! There
+                is always action right round the corner whatever you want to do! We love PVP as well as PVE this
+                includes Industry, we are a friendly bunch of players and look forward to growing our wagon!</h3>
+        </div>
+
+        <div class='parallaxContainer' id='vedmak'>
+            <div class='parallaxContainerContent'>
+                <h1 class='parallaxHeading'>Lets experience the beauty of New Eden together</h1>
+                <h3 class='parallaxSubheading'>EVE Online's universe is one of the most beautiful out there. Join us in
+                    your EVE career and carve your legend among the stars.</h3>
+
+            </div>
+        </div>
+
+
+        <div class='corpHeadingContainer'>
+            <h1 id='services' class='thumbContainerHeading'>What We Do</h1>
+            <div class='thumbContainer'>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://www.denofgeek.com/wp-content/uploads/2019/06/eve-online-purifier.jpg">
+                    <h3 class='thumbHeading'>Combat</h3>
+                    <h3 class='thumbText'>There are a ton of PVP opportunities for our pilots. We live near Jita, this
+                        means there are plently of heavily populated low security systems nearby for us. We do
+                        small-gang and medium-gang roams. There is a piece for everyone to enjoy.</h3>
+                </div>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://webimg.ccpgamescdn.com/kvd74o0q2fjg/4puPE1s8eQaOuACuyc4gUO/9925021662d183c0d807b3ef225ab06b/industry_2.jpg?w=360&fm=jpg">
+                    <h3 class='thumbHeading'>Industry</h3>
+                    <h3 class='thumbText'>In EVE, Industry is the part of the game that handles the transformation of
+                        raw materials into items that fuel the war machine in this beautiful game. Without Industry,
+                        there are no ships to kill and without war, there is no demand for new stuff.</h3>
+
+                </div>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://eve.pics/wp-content/uploads/2015/08/watermark_2015.08.03.20.55.09.jpg">
+                    <h3 class='thumbHeading'>Exploration</h3>
+                    <h3 class='thumbText'>Come with us to the remote corners or New Eden to find mystic landscapes of
+                        long lost civilizations filled with priceless loot and often guarded by ancient but deadly AI
+                        technology waiting to be discovered.</h3>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class='corpHeadingContainer'>
+            <h1 class='thumbContainerHeading'>What We Offer</h1>
+            <div class='thumbContainer'>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://i2.wp.com/www.alphr.com/wp-content/uploads/2017/12/eve_online_project_discovery_1.jpg?resize=1024%2C768&ssl=1">
+                    <h3 class='thumbHeading'>Ship Replacement</h3>
+                    <h3 class='thumbText'>Corporation-wide ship replacement is available for our members taking part in
+                        corporation fleets.</h3>
+                </div>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://cdn.vox-cdn.com/thumbor/uyNyI3FP725la-iUt0P5pM79X5A=/224x0:2329x1403/1200x800/filters:focal(224x0:2329x1403)/cdn.vox-cdn.com/uploads/chorus_image/image/46007034/EVE_Online_-_Stargate.0.0.jpg">
+                    <h3 class='thumbHeading'>Transportation</h3>
+                    <h3 class='thumbText'>Transportation is available to and from highsec trading hubs (Jita, Amarr).
+                        Members in our corporation do freighter runs to resupply our home base. Let one of them know if
+                        you want something hauled.</h3>
+
+                </div>
+                <div class='thumb'>
+                    <img class='thumbImage'
+                        src="https://webimg.ccpgamescdn.com/7lhcm73ukv5p/2KYVWCekgetPzmfEh273SQ/1520e2317dd67d229ca30c126e959776/Screenshot.jpg_w=900&fm=jpg&fl=progressive">
+                    <h3 class='thumbHeading'>Freindly Community</h3>
+                    <h3 class='thumbText'>We know that real life comes first. You will never be pestered for mandatory
+                        fleet ops. Play at your own pace. Enjoy.</h3>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class='corpHeadingContainer'>
+            <h1 class='thumbContainerHeading'>How to join us:</h1>
+            <ol id='joinus' class='joinUsList'>
+                <li class='joinUsListElement'>Join our public in-game channel, "Sample corp public" or join our <span class='link'><a href='https://discord.com'>Discord</a></span>. Speak with
+                    any recruiters if you have any questions. If you think this is the corp for you, continue on.</li>
+                <li class='joinUsListElement'>Wait for the join go-ahead from a Recruiter.</li>
+                <li class='joinUsListElement'>Quit any previous corporations.</li>
+                <li class='joinUsListElement'>Dock-up in any station. Press Alt-E, search "A sample corp".</li>
+                <li class='joinUsListElement'>Click "Apply to Corporation" on the show info screen.</li>
+                <li class='joinUsListElement'>If accepted, you will be receive full access to our discord server.</li>
+            </ol>
+            </ol>
+        </div>
+    </div>
+    <div class='footer'>
+        <h3 class='footerText'>Made by <a href="https://github.com/purry03">Purry03</a></h3>
+        <h3 class='footerText'>Footage courtesy of <a href="https://www.youtube.com/channel/UCaHwdFxMOgAh2y88SkEnvaQ">stars gaming</a></div></h3>
+    </div>
+    <script src='js/navbar.js'></script>
+    <script src='js/scroll.js'></script>
+</body>
+
+</html>
