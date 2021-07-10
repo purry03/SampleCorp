@@ -231,13 +231,14 @@ hr {
   flex-wrap: wrap;
   margin: 50px auto;
   width: 100%;
-  height: 75vh;
+  height: fit-content;
 }
 
 .thumb {
   display: inline-block;
-  height: 100%;
-  width: 30%;
+  height: 500px;
+  width: 350px;
+  margin-bottom: 25px;
   border: #aaa 1px solid;
   overflow: hidden;
   border-radius: 5px;
