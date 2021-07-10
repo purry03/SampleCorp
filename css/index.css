@@ -253,15 +253,14 @@ hr {
 
 .thumbImage {
   height: 50%;
-  width: auto;
+  width: 100%;
   transform: translateX(0);
-  object-fit: contain;
+  object-fit: cover;
   transition: all 0.2s;
 }
 
 .thumb:hover .thumbImage {
   height: 55%;
-  transform: translateX(-10%);
 }
 
 .thumbHeading {
